@@ -5,7 +5,7 @@ Sonar runner image. Read more [https://github.com/SonarSource/sonar-runner](here
 Example:
 
 ```bash
-docker run  -it -e CI_PROJECT_DIR="/data" -e SONAR_HOST_URL="https://sonarqube.com" -e SONAR_LOGIN="sonar" -e SONAR_PASSWORD="pass" madkom/sonar-runner
+docker run  -it  madkom/sonar-runner
 ```ls
 
 ## License
