@@ -17,4 +17,4 @@ ENV PATH /usr/local/sonar-runner-$SONAR_RUNNER_VERSION/bin:$PATH
 
 VOLUME /data
 
-CMD sonar-runner -D sonar.projectBaseDir=$CI_PROJECT_DIR -D sonar.host.url=$SONAR_HOST_URL -D sonar.login=$SONAR_LOGIN -D SONAR_PASSWORD=$SONAR_PASSWORD
+ENTRYPOINT ["sonar-runner"]
